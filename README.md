@@ -51,7 +51,8 @@ All map queries actually returned no results due to no instances of malicious ac
 
 |     Metric      |          Count        |
 |---------------|--------------------------|
-| Operating System | Windows 10            |
-| Virtual Machine  | Azure Virtual Machines |
-| Purpose         | Active Directory Setup |
-| Admin Account   | jane_admin             |
+| SecurityEvent ( Windows VM) | 4358 |
+| Syslog ( Linux VM ) | 2345 |
+| SecurityAlert( Microsoft Defender for Cloud ) | 6 |
+| SecurityIncident ( Sentinel Incidents)   | 73 |
+| NSG Inbound Malicious  Flows Ahead | 103 |
