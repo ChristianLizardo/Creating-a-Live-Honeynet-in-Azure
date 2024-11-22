@@ -92,27 +92,27 @@ The lab environment was configured to collect logs into Log Analytics Workspace.
 
 # Detection & Analysis
 
-   -Malware was identified on a workstation, posing risks to the system's confidentiality, integrity, and availability.
-   -The alert was assigned to a designated owner, marked as "High" severity, and set to "Active" status.
-   -The primary user of the system and other affected systems were identified.
-   -A comprehensive system scan using updated antivirus software pinpointed the malware.
-   -The alert was verified as a valid threat ("True Positive").
-   -Notifications were sent to the appropriate personnel as per communication protocols.
+   - Malware was identified on a workstation, posing risks to the system's confidentiality, integrity, and availability.
+   - The alert was assigned to a designated owner, marked as "High" severity, and set to "Active" status.
+   - The primary user of the system and other affected systems were identified.
+   - A comprehensive system scan using updated antivirus software pinpointed the malware.
+   - The alert was verified as a valid threat ("True Positive").
+   - Notifications were sent to the appropriate personnel as per communication protocols.
   
 # Containment, Eradication, & Recovery
 
-  -The infected workstation, along with any other compromised systems, was isolated from the network.
-  -If malware removal was unsuccessful or system integrity was compromised, affected systems were powered down and disconnected.
-  -Recovery options included restoring systems to a clean state, such as using system images or reinstalling the operating system and applications. Alternatively, 
-  updated antivirus software was employed to remove the malware.
+  - The infected workstation, along with any other compromised systems, was isolated from the network.
+  - If malware removal was unsuccessful or system integrity was compromised, affected systems were powered down and disconnected.
+  - Recovery options included restoring systems to a clean state, such as using system images or reinstalling the operating system and applications. Alternatively, 
+    updated antivirus software was employed to remove the malware.
   
 # Post-Incident Actions
 
-  -Analysis revealed that an employee had downloaded a game containing malicious software.
-  -Data was collected to assess the root cause, the extent of the impact, and the response effectiveness.
-  -A report was prepared and shared with relevant stakeholders.
-  -Corrective measures were implemented to address the root cause.
-  -A lessons-learned review was conducted to improve future incident response efforts.
+  - Analysis revealed that an employee had downloaded a game containing malicious software.
+  - Data was collected to assess the root cause, the extent of the impact, and the response effectiveness.
+  - A report was prepared and shared with relevant stakeholders.
+  - Corrective measures were implemented to address the root cause.
+  - A lessons-learned review was conducted to improve future incident response efforts.
 
  # Conclusion 
 
