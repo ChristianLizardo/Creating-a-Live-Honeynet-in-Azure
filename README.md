@@ -12,3 +12,46 @@ In this project, I create a small-scale honeynet using Microsoft Azure to attrac
 - Azure Storage Account
 - Microsoft Sentinel
 - Microsoft Defender for Cloud
+
+#  Architecture before Hardening 
+
+During the initial phase of the project, resources were intentionally set up to be exposed to public internet traffic. Virtual Machines were configured with minimal restrictions, leaving both their Network Security Groups (NSGs) and firewalls open to allow access from any source. Similarly, other components, such as storage accounts and databases, were accessible via public endpoints without the added protection of Private Endpoints. This setup was maintained for 24 hours to monitor activity and gather data for the attack maps referenced earlier.
+
+This attack map highlights the volume of incidents resulting from an open Network Security Group (NSG) configuration.
+
+Insert Image
+
+This attack map highlights the incidents for syslog authentication failures experienced by the Linux server.
+
+Insert Image
+
+This attack map displays RDP and SMB failure attempts targeting the Windows machine
+
+Insert Image
+
+This attack map showcases failures against the MSSQL server.
+
+Insert Image
+
+# After Hardening Measures and Security Control 
+
+In the "AFTER" stage of the project, I implemented targeted hardening measures and security controls based on the incidents observed during the initial 24-hour capture. These enhancements significantly improved the environment's resilience against attacks. The key improvements included:
+
+Network Security Groups (NSGs): The NSGs were fortified by restricting access exclusively to my public IP address, effectively blocking all other traffic through the newly configured rules.
+
+Built-in Firewalls: The built-in firewalls on the virtual machines were configured to deny access to unauthorized users, providing an additional layer of defense.
+
+Private Endpoints: Public endpoints for Azure resources, such as storage accounts and databases, were replaced with Private Endpoints. This change ensured that these resources could only be accessed within the virtual network, safeguarding sensitive data from external exposure.
+
+These measures collectively reduced vulnerabilities and improved the overall security posture of the environment.
+
+# Attacks maps after Hardening and Security Controls
+
+All map queries actually returned no results due to no instances of malicious activity for the 24 hour period after hardening.
+
+|     Metric      |          Count        |
+|---------------|--------------------------|
+| Operating System | Windows 10            |
+| Virtual Machine  | Azure Virtual Machines |
+| Purpose         | Active Directory Setup |
+| Admin Account   | jane_admin             |
