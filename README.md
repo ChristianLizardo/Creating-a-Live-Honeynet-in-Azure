@@ -17,6 +17,8 @@ In this project, I create a small-scale honeynet using Microsoft Azure to attrac
 
 #  Architecture before Hardening 
 
+![IMG_1399](https://github.com/user-attachments/assets/286c5b45-8763-4587-8a68-2cfa0eb1a7e8)
+
 During the initial phase of the project, resources were intentionally set up to be exposed to public internet traffic. Virtual Machines were configured with minimal restrictions, leaving both their Network Security Groups (NSGs) and firewalls open to allow access from any source. Similarly, other components, such as storage accounts and databases, were accessible via public endpoints without the added protection of Private Endpoints. This setup was maintained for 24 hours to monitor activity and gather data for the attack maps referenced earlier.
 
 This attack map highlights the volume of incidents resulting from an open Network Security Group (NSG) configuration.
