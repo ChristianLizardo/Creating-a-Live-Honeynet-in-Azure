@@ -39,6 +39,8 @@ Insert Image
 
 # After Hardening Measures and Security Control 
 
+![IMG_1400](https://github.com/user-attachments/assets/f4d232fa-cd63-41e7-9c38-5a2cd8104106)
+
 In the "AFTER" stage of the project, I implemented targeted hardening measures and security controls based on the incidents observed during the initial 24-hour capture. These enhancements significantly improved the environment's resilience against attacks. The key improvements included:
 
 Network Security Groups (NSGs): The NSGs were fortified by restricting access exclusively to my public IP address, effectively blocking all other traffic through the newly configured rules.
