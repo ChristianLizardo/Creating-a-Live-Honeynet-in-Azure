@@ -23,19 +23,19 @@ During the initial phase of the project, resources were intentionally set up to 
 
 This attack map highlights the volume of incidents resulting from an open Network Security Group (NSG) configuration.
 
-Insert Image
+![IMG_1407](https://github.com/user-attachments/assets/574d5f84-f308-4f86-8110-d89fa61377e6)
 
 This attack map highlights the incidents for syslog authentication failures experienced by the Linux server.
 
-Insert Image
+![IMG_1408](https://github.com/user-attachments/assets/7a1efb2a-1832-4659-b15b-48bef3ddc012)
 
 This attack map displays RDP and SMB failure attempts targeting the Windows machine
 
-Insert Image
+![IMG_1409](https://github.com/user-attachments/assets/747610fc-6f2b-4163-acbd-a44d3f938762)
 
 This attack map showcases failures against the MSSQL server.
 
-Insert Image
+![IMG_1410](https://github.com/user-attachments/assets/6054b658-8eed-4b1b-a23c-e956c813b12f)
 
 # After Hardening Measures and Security Control 
 
@@ -87,7 +87,7 @@ Stop Time 2023-05-05 4:25 PM
 
 For each simulated attack I practiced incident responses following NIST SP 800-61 r2.
 
-Insert Image
+![IMG_1411](https://github.com/user-attachments/assets/8b5b533f-b889-4448-9e87-c87589f179f4)
 
 
 Each organization follows specific policies for incident response, which should guide actions during potential security events. This walkthrough demonstrates a possible approach for addressing malware detected on a workstation.
